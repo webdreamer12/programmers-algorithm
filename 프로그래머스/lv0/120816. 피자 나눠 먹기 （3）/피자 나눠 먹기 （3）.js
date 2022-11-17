@@ -1,0 +1,1 @@
+let solution = (n, slice) => Math.ceil(slice / n);
