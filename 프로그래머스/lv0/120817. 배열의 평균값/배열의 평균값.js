@@ -1,7 +1,3 @@
 let solution = (numbers) => {
-  let sumOfArray = 0;
-  for (let num of numbers) {
-    sumOfArray += num;
-  }
-  return sumOfArray / numbers.length;
+  return numbers.reduce((sum, current) => sum + current) / numbers.length;
 };
