@@ -3,9 +3,9 @@ function solution(balls, share) {
     return answer;
 }
 function factorial(num) {
-    let ret = BigInt(1);
+    let n = BigInt(1);
     for(let i=2; i<=num ; i++){
-        ret *= BigInt(i);
+        n *= BigInt(i);
     }
-    return ret;
+    return n;
 }
